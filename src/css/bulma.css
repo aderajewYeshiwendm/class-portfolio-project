@@ -5,7 +5,7 @@
 
   
   .home{
-    background-image: url(/images/webDevelopment.jpeg) ;
+    background-image: url(../images/webDevelopment.jpeg) ;
         background-position: center center;
         background-repeat:  no-repeat;
         background-attachment: fixed;
@@ -13,73 +13,73 @@
         background-color: #999;
   }
   .skills{
-    background: url(/images/webDevelopment.jpeg) repeat;
+    background: url(../images/webDevelopment.jpeg) repeat;
   }
   .bcImage1 {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    background: url(/images/football.jpeg) repeat;
+    background: url(../images/football.jpeg) repeat;
   }
   .bcImage2 {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    background: url(/images/gaming.jpeg) repeat;
+    background: url(../images/gaming.jpeg) repeat;
   }
   .bcImage3 {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    background: url(/images/techGadgets.jpeg) repeat;
+    background: url(../images/techGadgets.jpeg) repeat;
   }
   .bcImage4 {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    background: url(/images/fitnessAndWellness.jpeg) repeat;
+    background: url(../images/fitnessAndWellness.jpeg) repeat;
   }
   .bcImage5 {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    background: url(/images/movie.jpeg) repeat;
+    background: url(../images/movie.jpeg) repeat;
   }
   .bcImage6 {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    background: url(/images/reaading.jpeg) repeat;
+    background: url(../images/reaading.jpeg) repeat;
   }
   .bcImage7 {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    background: url(/images/travel.jpeg) repeat;
+    background: url(../images/travel.jpeg) repeat;
   }
   .bcImage8 {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    background: url(/images/volunter.png) repeat;
+    background: url(../images/volunter.png) repeat;
   }
   .bcImage9 {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    background: url(/images/webDevelopment.jpeg) repeat;
+    background: url(../images/webDevelopment.jpeg) repeat;
   }
   .bcImage10 {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    background: url(/images/music.jpeg) repeat;
+    background: url(../images/music.jpeg) repeat;
   }
   .bcImage11 {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
-    background: url(/images/art.jpeg) repeat;
+    background: url(../images/art.jpeg) repeat;
   }
   .bcImage12 {
     width: 100%;
