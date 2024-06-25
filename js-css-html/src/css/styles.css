@@ -1,0 +1,553 @@
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;   
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    
+}
+
+  .navigation {
+    background-color: #555;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navigation--logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+
+  .navigation--logo-img,.img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+
+  .navigation--mobile {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+
+  .navigation--list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navigation--list-li {
+    margin-right: 20px;
+  }
+
+  .navigation--list-anchor {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .navigation--list-anchor:hover {
+    color: #ffcc00;
+  }
+
+  .navigation--list-dropdown,
+  .navigation--list-dropdown-dropdown-content {
+    position: relative;
+    display: inline-block;
+  }
+
+  .navigation--list--dropdown--dropdown-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  .navigation--list-dropdown-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+
+  .navigation--list-dropdown:hover .navigation--list-dropdown-dropdown-content {
+    display: grid;
+
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 10px;
+    padding-left: 10px;
+  }
+.Home {
+    display: grid;
+    
+    text-align: center;
+    
+    
+}
+
+.Home--bcImage{
+    background: url('/images/webDevelopment.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    
+}
+.Home--section{
+    background-color: rgb(15, 232, 174);
+    height: 55vh;
+    text-align: center;
+
+}
+
+.Accomplishments {
+    
+    margin-bottom: 2px;
+    
+}
+
+.Accomlishments--header {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 0 10px;
+    
+    
+}
+
+.Accomplishments--article {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.Accomplishments--article-iframe {
+    margin: 10px;
+    width: 250px;
+    height: 200px;   
+}
+.contacts {
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    height: 80vh;
+}
+.contacts--article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.contacts .contacts--article--one-table,.contacts--article--one--table-th,.contacts--article--one--table-td{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.hobbies--header{
+    text-align: center;
+    color: white;
+    background-color: rgba(19, 61, 168, 0.489);
+}
+.hobbies--image-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr)); 
+    grid-gap: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #48f000;
+    height: 100vh;
+}
+.hobbies--image-container-bcImage1{
+    background: url(/images/football.jpeg) no-repeat;
+    border-radius: 9px;
+    width: 100%;
+}
+.hobbies--image-container-bcImage2{
+    background: url(/images/gaming.jpeg) no-repeat;
+    border-radius: 9px;
+    width: 100%;
+}
+.hobbies--image-container-bcImage3{
+    background: url(/images/techGadgets.jpeg) no-repeat;
+    border-radius: 9px;
+    width: 100%;
+}
+.hobbies--image-container-bcImage4{
+    background: url(/images/fitnessAndWellness.jpeg) no-repeat;
+    border-radius: 9px;
+    width: 100%;
+}
+.hobbies--image-container-bcImage5{
+    background: url(/images/movie.jpeg) no-repeat;
+    border-radius: 9px;
+    width: 100%;
+}
+.hobbies--image-container-bcImage6{
+    background: url(/images/reaading.jpeg) no-repeat;
+    border-radius: 9px;
+    width: 100%;
+}
+.hobbies--image-container-bcImage7{
+    background: url(/images/travel.jpeg) no-repeat;
+    border-radius: 9px;
+    width: 100%;
+}
+.hobbies--image-container-bcImage8{
+    background: url(/images/volunter.png) no-repeat;
+    border-radius: 9px;
+    width: 100%;
+}
+.hobbies--image-container-bcImage9{
+    background: url(/images/webDevelopment.jpeg) no-repeat;
+    border-radius: 9px;
+    width: 100%;
+}
+.hobbies--image-container-bcImage10{
+    background: url(/images/music.jpeg) no-repeat;
+    border-radius: 9px;
+    width: 100%;
+}
+.hobbies--image-container-bcImage11{
+    background: url(/images/art.jpeg) no-repeat;
+    border-radius: 9px;
+    width: 100%;
+}
+.hobbies--image-container-bcImage12{
+    background: url(/images/graphicDesign.jpeg) no-repeat;
+    border-radius: 9px;
+    width: 100%;
+}
+.hobbies--image-container-p{
+    color: royalblue;
+    text-align: center;
+}
+.skills {
+    margin-top: 2px;
+    background-color: #555;
+    display: grid;
+    height: 80vh;
+    grid-template-columns: 1fr 1fr;
+    gap: 3vh;
+    text-align: center;
+    
+
+    
+
+}
+.skills--bcImage{
+    background: url(/images/webDevelopment.jpeg) top center repeat;
+    width: 100%;
+    height: 15vh; 
+    grid-column-start: 1;   
+    grid-column-end: 3;
+}
+.skills--header-h1{
+    font-weight:bolder;
+    font-size: 1.4rem;
+    font-family:cursive ;
+    color: blue;
+}
+.skills--one--section-list,.skills--two--section-list{
+    list-style-type: none;
+   text-align: center;
+
+
+}
+.skills--one--section--list-li,.skills--two--section--list-li{
+    padding: 0.4em;
+
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    
+    .navigation--mobile {
+        display: block;
+      }
+
+      .navigation--list {
+        display: none;
+        flex-direction: column;
+        background-color: #444;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+        padding-left: 20px;
+      }
+
+      .navigation--list.active {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+      }
+
+      .navigation--list-li {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    .Home--section{
+        height: 90vh;
+    }
+    .Home--section-p{
+        font-size: 25px;
+        
+    }
+    .Home--section-h2{
+        padding-top: 20px;
+    }
+
+    .Accomplishments--header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Accomplishments--article {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr; 
+    }
+    
+    .Accomplishments--sec1, .Accomplishments--sec2 {
+        grid-column: 1; 
+    }
+    .contacts{
+        color: white;
+        background-color: rgb(220, 158, 13);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        height: 90vh;
+    }
+    .contacts h1{
+        color: rgba(19, 61, 168, 0.989);
+        
+    }
+    .contacts--article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    
+    .contacts--article--one-table,.contacts--article--one--table-td,.contacts--article--one--table-th{
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    
+    .hobbies--header{
+        text-align: center;
+        color: white;
+        background-color: rgba(19, 61, 168, 0.489);
+    }
+    .hobbies--image-container{
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: 10px;
+        
+        gap: 10px;
+        justify-content: space-between;
+        background-color: #48f000;
+        
+    }
+    .hobbies--image-container-p{
+        color: royalblue;
+        text-align: center;
+    }
+    .hobbies--image-container-bcImage1{
+        background: url(/images/football.jpeg) no-repeat;
+        border-radius: 9px;
+        width: 45vw;
+        text-align:center;
+    
+    }
+    .hobbies--image-container-bcImage2{
+        background: url(/images/gaming.jpeg) no-repeat;
+        border-radius: 9px;
+        width: 45vw;
+        text-align:center;
+    
+    }
+    .hobbies--image-container-bcImage3{
+        background: url(/images/techGadgets.jpeg) no-repeat;
+        border-radius: 9px;
+        width: 45vw;
+        text-align:center;
+    
+    }
+    .hobbies--image-container-bcImage4{
+        background: url(/images/fitnessAndWellness.jpeg) no-repeat;
+        border-radius: 9px;
+        width: 45vw;
+        text-align:center;
+    
+    }
+    .hobbies--image-container-bcImage5{
+        background: url(/images/movie.jpeg) no-repeat;
+        border-radius: 9px;
+        width: 45vw;
+        text-align:center;
+    
+    }
+    .hobbies--image-container-bcImage6{
+        background: url(/images/reaading.jpeg) no-repeat;
+        border-radius: 9px;
+        width: 45vw;
+        text-align:center;
+    
+    }
+    .hobbies--image-container-bcImage7{
+        background: url(/images/travel.jpeg) no-repeat;
+        border-radius: 9px;
+        width: 45vw;
+        text-align:center;
+    
+    }
+    .hobbies--image-container-bcImage8{
+        background: url(/images/volunter.png) no-repeat;
+        border-radius: 9px;
+        width: 45vw;
+        text-align:center;
+    
+    }
+    .hobbies--image-container-bcImage9{
+        background: url(/images/webDevelopment.jpeg) no-repeat;
+        border-radius: 9px;
+        width: 45vw;
+        text-align:center;
+    
+    }
+    .hobbies--image-container-bcImage10{
+        background: url(/images/music.jpeg) no-repeat;
+        border-radius: 9px;
+        width: 45vw;
+        text-align:center;
+    
+    }
+    .hobbies--image-container-bcImage11{
+        background: url(/images/art.jpeg) no-repeat;
+        border-radius: 9px;
+        width: 45vw;
+        text-align:center;
+    
+    }
+    .hobbies--image-container-bcImage12{
+        background: url(/images/graphicDesign.jpeg) no-repeat;
+        border-radius: 9px;
+        width: 45vw;
+        text-align:center;
+    
+    }
+    .skills{
+    
+        background-color: #555;
+        display: flex;
+        
+        justify-content: space-around;
+        
+        align-items: center;
+        flex-flow: row wrap;
+        height: 90vh;
+        text-align:center;
+    
+    }
+    .skills--bcImage{
+        background: url(/images/webDevelopment.jpeg) center fixed;
+        width: 100vw;
+        height: 15vh;    
+    }
+    .skills--header-h1{
+        font-weight:bolder;
+        font-size: 1.4rem;
+        font-family:cursive ;
+        color: blue;
+    }
+    .skills--one--section-list,.skills--two--section-list{
+        list-style-type: none;
+    
+    }
+    .skills--one--section--list-li,.skills--two--section--list-li{
+        padding: 0.1em;
+        
+    }
+    
+    .skills:not(:first-child) {
+        flex: 1;
+      }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .Home--section{
+        height: 90vh;
+    }
+    .Home--section-p{
+        font-size:30px;
+        text-align: left;
+        margin-left: 20px;
+        
+    }
+    .Home--section-h2{
+        font-size: 50px;
+        float: left;
+        margin-right: 10px;
+       
+    }
+    .Accomplishments{
+        height: 90vh;
+    }
+    .Accomplishments--article {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .Accomplishments--article-iframe {
+        width: 90%;
+        box-sizing: border-box;
+    }
+    .hobbies--image-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        height: 80vh;
+    }
+    .skills{
+        height: 100%;
+    }
+    .contacts{
+        height: 90vh;
+    }
+} 
